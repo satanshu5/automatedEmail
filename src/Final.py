@@ -65,7 +65,7 @@ for i in range(len(emails)):
     # TO = 'defendersatya5@gmail.com'  #can send to multiple by using a python list of email ids
 
     TO = emails[i]
-    PASS = 'NishSat@#%1265' #Your Email Pass
+    PASS = AddPasswordstring #Your Email Pass
 
 
     msg = MIMEMultipart()
